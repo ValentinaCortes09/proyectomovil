@@ -2,7 +2,7 @@ import { useState, useEffect, useContext } from 'react'
 import { useParams } from "react-router-dom"; 
 import { AppContext } from '../../contexto/contexto';
 
-function pokemon() {
+function Pokemon() {
 
   const { name } = useParams(); 
   const [datapoke, setDatapoke] = useState([]);
@@ -56,4 +56,4 @@ function pokemon() {
   );
 }
 
-export default pokemon;
+export default Pokemon;
